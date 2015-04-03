@@ -688,7 +688,7 @@ public class MapsActivity extends FragmentActivity implements LocationListener,
             cleanUpMarkers(new HashSet<String>());
             return;
         }
-        // 2
+
         final ParseGeoPoint myPoint = geoPointFromLocation(myLoc);
         // 3
         ParseQuery<MassEvent> mapQuery = MassEvent.getQuery();
